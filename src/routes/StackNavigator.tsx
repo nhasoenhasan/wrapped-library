@@ -11,12 +11,12 @@ const Stack = createStackNavigator();
 const StackNavigator = () => {
 
   return (
-    <Stack.Navigation>
+    <Stack.Navigator>
       <Stack.Screen name="Frogie" component={Home} />
       <Stack.Screen name="FrogieChillin" component={FrogieChillin} />
       <Stack.Screen name="FrogieSmoke" component={FrogieSmoke} />
       <Stack.Screen name="FrogieFuck" component={FrogieFuck} />
-    </Stack.Navigation>
+    </Stack.Navigator>
   );
 };
 
